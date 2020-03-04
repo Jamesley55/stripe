@@ -8,6 +8,7 @@
     "@types/express-session": "^1.17.0",
     "@types/graphql": "^14.5.0",
     "@types/node": "^13.7.7",
+    "@types/stripe": "^7.13.22",
     "add": "^2.0.6",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
@@ -15,13 +16,16 @@
     "typescript": "3.8.3"
   },
   "dependencies": {
+    "@types/stripe-v3": "^3.1.17",
     "apollo-server-express": "^2.10.1",
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "graphql": "^14.6.0",
     "pg": "^7.18.2",
     "reflect-metadata": "^0.1.13",
+    "stripe": "^8.24.1",
     "typeorm": "0.2.24"
   },
   "scripts": {
