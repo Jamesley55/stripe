@@ -47,6 +47,7 @@ export interface LoginMutationVariables {
 // ====================================================
 
 export interface MeQuery_me {
+  type: string;
   id: string;
   email: string;
 }

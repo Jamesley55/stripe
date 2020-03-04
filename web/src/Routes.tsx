@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { loginView } from "./modules/user/loginView";
 import { registerView } from "./modules/user/registerView";
-import { meView } from "./modules/user/meView";
-import SubscribeUser from "./modules/user/account/SubscribeUser";
+import { Account } from "./modules/user/account/account";
 
 export class Routes extends React.PureComponent {
   render() {
@@ -12,8 +11,7 @@ export class Routes extends React.PureComponent {
         <Switch>
           <Route path="/login" component={loginView} />
           <Route path="/register" component={registerView} />
-          <Route path="/me" component={meView} />
-          <Route path="/subscription" component={SubscribeUser} />
+          <Route path="/account" component={Account} />
         </Switch>
       </BrowserRouter>
     );
